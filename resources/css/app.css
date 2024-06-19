@@ -1,0 +1,10 @@
+.message {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+.valid {
+    color: green;
+}
+.not-valid {
+    color: red;
+}
