@@ -76,8 +76,8 @@ class MainController extends Controller
         $fileCount = 4;
         $fileNameLength = 5;
 
-        $folderCount = rand(2, 3); // Randomly choose 2 or 3 folders
-        $subfolderCount = 3; // Fixed 3 subfolders in each folder
+        $folderCount = rand(2, 3);
+        $subfolderCount = 3;
         $extensions = ['jpg', 'txt', 'php', 'md'];
 
         $created = $this->fileService->createFoldersAndFiles($baseDir, $fileCount, $fileNameLength, $folderCount, $subfolderCount, $extensions);
@@ -124,7 +124,6 @@ class MainController extends Controller
             }
         }
 
-        // Create the data row
         $csvData = [];
         $csvData[] = array_values($combinedData);
 
