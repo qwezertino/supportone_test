@@ -53,7 +53,7 @@
             "php artisan config:cache",
             "php artisan migrate",
             "npm install",
-            "npm run build"
+            "npm run dev"
         ]
     },
     "extra": {

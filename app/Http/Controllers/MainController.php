@@ -8,9 +8,6 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 use App\Services\FileService;
 use App\Services\WebParserService;
-// use App\Models\Category;
-// use App\Models\Product;
-// use App\Models\Association;
 
 class MainController extends Controller
 {
